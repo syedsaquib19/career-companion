@@ -1,0 +1,140 @@
+{
+  "beginner": [
+    {
+      "title": "Python Basics & Setup",
+      "objective": "Learn Python installation, IDE usage, syntax fundamentals.",
+      "topics": ["What is Python?", "Installing Python", "VS Code Setup", "Running Scripts"],
+      "subtopics": ["print()", "variables", "comments"],
+      "tasks": ["Install Python & VS Code", "Write first Python script"],
+      "practice": ["Print your name", "Create 3 variables with values"],
+      "projects": ["Simple hello world automation script"],
+      "resources": ["https://docs.python.org/3/tutorial/"],
+      "videos": ["https://youtu.be/kqtD5dpn9C8"],
+      "quiz": ["What is an interpreter?"],
+      "time": 4
+    },
+    {
+      "title": "Data Types & Operators",
+      "objective": "Understand primitive types and operations.",
+      "topics": ["Integers", "Floats", "Booleans", "Strings"],
+      "subtopics": ["Arithmetic operators", "Comparison operators", "Logical operators"],
+      "tasks": ["Practice arithmetic in Python shell"],
+      "practice": ["Create a calculator program"],
+      "projects": ["Mini text-based calculator"],
+      "resources": ["https://www.w3schools.com/python/python_operators.asp"],
+      "videos": ["https://youtu.be/urNW2MZgV9Y"],
+      "quiz": ["Difference between == and = ?"],
+      "time": 4
+    },
+    {
+      "title": "Control Flow",
+      "objective": "Learn decision statements and loops.",
+      "topics": ["if-else", "for loop", "while loop"],
+      "subtopics": ["break", "continue"],
+      "tasks": ["Write loops for practice"],
+      "practice": ["Loop through lists & print values"],
+      "projects": ["Number guessing game"],
+      "resources": ["https://realpython.com/python-conditional-statements/"],
+      "videos": ["https://youtu.be/6iF8Xb7Z3wQ"],
+      "quiz": ["What is loop iteration?"],
+      "time": 5
+    },
+    {
+      "title": "Lists, Tuples & Dictionaries",
+      "objective": "Master basic data structures.",
+      "topics": ["Lists", "Tuples", "Dictionaries"],
+      "subtopics": ["indexing", "slicing", "mutability"],
+      "tasks": ["Solve list manipulation exercises"],
+      "practice": ["Create dictionary of student marks"],
+      "projects": ["Contact book app"],
+      "resources": ["https://realpython.com/python-lists-tuples/"],
+      "videos": ["https://youtu.be/ohCDWZgNIU0"],
+      "quiz": ["Difference between list and tuple?"],
+      "time": 5
+    }
+  ],
+
+  "intermediate": [
+    {
+      "title": "Functions & Modular Code",
+      "objective": "Write reusable code using functions.",
+      "topics": ["def keyword", "arguments", "return values"],
+      "subtopics": ["lambda", "scope"],
+      "tasks": ["Create multiple utility functions"],
+      "practice": ["Write function to check prime numbers"],
+      "projects": ["Modular calculator app"],
+      "resources": ["https://realpython.com/defining-your-own-python-function/"],
+      "videos": ["https://youtu.be/9Os0o3wzS_I"],
+      "quiz": ["What is a lambda function?"],
+      "time": 5
+    },
+    {
+      "title": "File Handling",
+      "objective": "Work with files using Python.",
+      "topics": ["Reading files", "Writing files"],
+      "subtopics": ["with open()", "file modes"],
+      "tasks": ["Create text log file"],
+      "practice": ["Write a script that analyzes a file"],
+      "projects": ["Automated notes manager"],
+      "resources": ["https://realpython.com/read-write-files-python/"],
+      "videos": ["https://youtu.be/ZBz5E8zPLs4"],
+      "quiz": ["Difference between r and w mode?"],
+      "time": 4
+    },
+    {
+      "title": "Object-Oriented Programming",
+      "objective": "Understand classes, objects, inheritance.",
+      "topics": ["Classes", "Objects", "Methods"],
+      "subtopics": ["inheritance", "encapsulation", "polymorphism"],
+      "tasks": ["Write multiple classes"],
+      "practice": ["Create Student & Course classes"],
+      "projects": ["Library management system"],
+      "resources": ["https://realpython.com/python3-object-oriented-programming/"],
+      "videos": ["https://youtu.be/JeznW_7DlB0"],
+      "quiz": ["Explain inheritance with example"],
+      "time": 6
+    }
+  ],
+
+  "advanced": [
+    {
+      "title": "Advanced Python Concepts",
+      "objective": "Master decorators, generators, iterators.",
+      "topics": ["Decorators", "Generators", "Iterators"],
+      "subtopics": ["yield keyword", "function wrapping"],
+      "tasks": ["Practice writing decorators"],
+      "practice": ["Write custom generator"],
+      "projects": ["Build a generator-based data pipeline"],
+      "resources": ["https://realpython.com/primer-on-python-decorators/"],
+      "videos": ["https://youtu.be/FsAPt_9Bf3U"],
+      "quiz": ["What is yield used for?"],
+      "time": 6
+    },
+    {
+      "title": "APIs & Web Requests",
+      "objective": "Learn how to work with APIs using requests.",
+      "topics": ["GET", "POST", "API parsing"],
+      "subtopics": ["JSON handling", "error handling"],
+      "tasks": ["Call public APIs"],
+      "practice": ["Parse JSON responses"],
+      "projects": ["Weather dashboard CLI app"],
+      "resources": ["https://realpython.com/python-requests/"],
+      "videos": ["https://youtu.be/tb8gHvYlCFs"],
+      "quiz": ["What is status code 200?"],
+      "time": 5
+    },
+    {
+      "title": "Databases & ORM",
+      "objective": "Integrate Python with databases.",
+      "topics": ["SQLite", "SQLAlchemy ORM"],
+      "subtopics": ["CRUD operations", "models"],
+      "tasks": ["Create database tables"],
+      "practice": ["Write CRUD using ORM"],
+      "projects": ["Task manager app with DB"],
+      "resources": ["https://docs.sqlalchemy.org/en/20/"],
+      "videos": ["https://youtu.be/woKYyhLCcnU"],
+      "quiz": ["What is ORM?"],
+      "time": 6
+    }
+  ]
+}
